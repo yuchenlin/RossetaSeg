@@ -1,13 +1,12 @@
-Please run "UI.pyw" to get GUI.
 
-
-Task Distribution:
-������ Background Program.���ִ��㷨���ʵ䣬���򣬺�̨�����ϳɣ�
-������ GUI section. 
-
-Enviroment :
-
-** Windows 7 or upper edtion
-** Mac OS X  10.9 or upper edtion
+1.这个项目是大一上计算导论的大作业之一，感觉比较有挑战性就选了，也学到了很多东西，挺开心的。
+2.基本没什么心意，跟结巴分词的思路一模一样，但是因为结巴进行了太多工程性优化也没有很多文档，所以我的这个唯一的意义就是
+  看起来比较容易懂。
+3.思路主要是两层，一是基于词典和概率的动态规划搜索有向无环图的最大概率路径，二是针对多个连续单字进行HMM的标注构造，
+    实现每个字都有一个状态，且这个状态链对应的概率是最大的。
+4.一些连接，给了我很多帮助：
+http://blog.csdn.net/likelet/article/details/7056068
+http://ddtcms.com/blog/archive/2013/2/4/69/jieba-fenci-suanfa-lijie/
+还有wiki的维特比算法词条。
 
 ** Python 3.4.2
